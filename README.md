@@ -22,3 +22,4 @@ Additional tutorials will be added as they are contructed.
 
 ## License Information
 
+license information can be found [here](https://github.com/gdavidjohnson2/grover-tutorials/blob/main/LICENSE)
