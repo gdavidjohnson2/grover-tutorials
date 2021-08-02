@@ -12,10 +12,6 @@ Any installation information will be included in individual README documentation
 
 Walkthroughs, tutorials, anything along those lines
 
-## Support
-
-Questions are always welcome. Feel free to reach out via email or issue a pull request.
-
 ## Roadmap
 
 Additional tutorials will be added as they are contructed.
