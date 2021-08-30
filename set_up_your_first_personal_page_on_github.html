@@ -1,0 +1,101 @@
+<html>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Roboto+Mono:wght@300&display=swap');
+
+        body {
+            width: 50%;
+            background: white;
+            padding-left: 25%;
+            padding-right:25%;
+            text-align:center;
+            font-family: 'Open Sans', sans-serif;
+        }
+        h1,h2 {
+            font-family: 'Open Sans', sans-serif;
+        }
+        h1 {
+            color:#7030A0;
+            font-size:2em;
+            padding:10px;
+
+        }
+        h2 {
+            color:#7030A0;
+            font-size:1.5em;
+            padding:10px;
+        }
+        tagline {
+            color:gray;
+            font-style: italic;
+        }
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+        ul {
+            max-width: 305%;
+            margin-left:25%;
+            text-align:left;
+            list-style-type: none;
+        }
+        li {
+            padding:5px;
+            padding-left:10px;
+
+        }
+        li a, li a:visited {
+            text-decoration: none;
+            color:#7030A0;
+            transition: all .3s ease-in-out;
+        }
+        li a:hover {
+            font-size: 1.05rem;
+            color:#6116ec;
+        }
+        b, strong {
+            font-weight:bold;
+            color:#561d81
+        }
+    </style>
+    <body>
+        <h1 >Setting up your first personal page on GitHub</h1>
+            <tagline>Grover Johnson</tagline>
+            <p>Here’s a quick and dirty tutorial on how to set up a personal page on GitHub...nothing too fancy.</p>
+            <p>For the purpose of this tutorial, we’ll assume that you don’t already have an account and that you’re are familiar with creating basic web content. </p>
+            <p>For more information on what GitHub is and the start of what you can do, try: <a href='https://guides.github.com/activities/hello-world/' target='new'>https://guides.github.com/activities/hello-world/</a>.</p>
+            <p>We’ll cover the following steps:</p>
+            <ul id="List">
+                <li><a href="#Account">Creating a GitHub account</a></li>
+                <li><a href="#Repository">Creating your repository</a></li>
+                <li><a href="#Upload">Uploading your content via GitHub’s file drag-and-drop</a></li>
+                <li><a href="#Browse">Browsing to your personal page</a></li>
+            </ul>
+        <h2 id="Account">Creating your GitHub Account</h2>
+            <p>Navigate to GitHub.com and click on the <b>Sign-up</b> link</p>
+            <img src="images/signup.png" />
+            <p>Enter the email address that you’d like to associate with your GitHub account.</p>
+            <img src="images/signup-email.png" />
+            <p>Enter a password for your account</p>
+            <img src="images/signup-password.png" />
+            <p>Update your username to the username of your choice… assuming it’s available.</p>
+            <img src="images/signup-username.png" />
+            <p>Follow the prompt to select whether or not you’d like to receive update and announcement e-mails.</p>
+            <p>You’ll be presented with a section to verify you’re human for the account.</p>
+            <p>Click <b>Start Puzzle</b> to verify that you are indeed a living breathing person</p>
+            <img src="images/signup-verify.png" />
+            <p>When you’ve completed the steps for the verification, you will be able to click <b>Create account.</b></p>
+            <img src="images/signup-verified.png" />
+            <p>Once your email has been verified, you’ll be presented with a few options to get started, we will <b>skip this for now</b>.</p>
+            <img src="images/email-verified.png" />
+        <h2 id="Repository">Creating your Repository</h2>
+            <p>To create our personal web page, we’ll choose <b>create repository</b> from the menu on the left, or choose the drop…</p>
+            <img src="images/create-repository.png" />
+            <p>Choose a name for your repository that will ALSO serve later as the site name where you will browse to find your page in the format your-site.github.io. If the name is already in use, modify it until you strike gold…and GitHub tells you that your repository name is available.</p>
+        <h2 id="Upload">Create and upload your content</h2>
+            <p>In the editor of your choice, create your index.html file. You may either choose GitHub’s drag and drop interface OR you can push the html file, images, ect. From GitHub Desktop. GitHub will use this page to display your site. </p>
+            <p>Once your index file has been uploaded, you must commit the change to the repository. Think of the commit as a Save button 2.0. Not only are files uploaded but also the changes or versions are tracked.</p>
+        <h2 id="Browse">Browse to your personal site</h2>
+            <p>With your content in place, you’re ready to preview your personal site.</p>
+            <p>You can type your repository name (your-site.github.io) in the browser and GitHub will serve your personal page. </p>
+    </body>
+</html>
